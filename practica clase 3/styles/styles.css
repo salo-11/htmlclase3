@@ -1,0 +1,51 @@
+body{
+background-color: rgb(255, 208, 255);
+display: flex;
+margin: 0;
+padding: 30px;
+text-align: center;
+justify-content: center;
+
+}
+.card{
+background-color: rgb(255, 159, 234);
+width: 50%;
+margin: auto;
+transition: transform 0.3s ease;
+justify-items: center;
+border-radius: 20px;
+}
+
+img{
+width: 100%;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.card:hover{
+transform:scale(1.05)
+}
+
+p{
+font-size:10px ;
+color: rgb(188, 255, 244);
+}
+
+.botton{
+display: inline-block;
+margin-top: 15px;
+padding: 10px 20px;
+color: rgb(98, 184, 255);
+text-decoration: none;
+font-weight: bold;
+border-radius: 10px;
+transition: background 0.3;
+}
+
+.botton:hover{
+  background-color: rgb(120, 255, 127);
+    transform: scale(1.08);
+
+
+
+}
